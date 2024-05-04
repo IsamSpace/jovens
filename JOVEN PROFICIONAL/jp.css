@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ffffff; /* Cor de fundo do corpo */
+    font-family: Arial, sans-serif; /* Fonte principal */
+    color: #333; /* Cor do texto principal */
+}
+
+
+.titulo{
+    font-size: 10px;
+    line-height: 1.6;
+    height: 100px;
+}
+.caixa p {
+    font-size: 16px; /* Tamanho do texto */
+    line-height: 1.5; /* Altura da linha */
+    color: #eee; /* Cor do texto */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.imagem-centralizada {
+    width: 100%; /* Largura da imagem */
+    max-width: 200px; /* Largura máxima */
+    height: auto; /* Altura automática */
+}
+
+.titulo h3 {
+    padding: 20px; /* Espaçamento ao redor do texto */
+    font-size: 16px; /* Tamanho do texto */
+    color: #09c25c; /* Cor do texto */
+    text-align: center;
+}
+
+#jp{
+    width: 100%; /* Largura da imagem */
+    max-width: 200px; /* Largura máxima */
+    height: auto; /* Altura automática */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+#certificado {
+    text-align: center; /* Centralizar texto */
+    color: #09c25c; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    margin-top: 50px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Para movimentar para cima e para baixo */
+#certificado.cima {
+    margin-top: 1000px;
+}
+
+#certificado.baixo {
+    margin-top: 80px;
+}
+video {
+    width: 90%;
+    height: 300px;
+    float: right; /* Move o vídeo para a direita */
+}
+#titulo-especial {
+    padding: 20px; /* Espaçamento ao redor do texto */
+    font-size: 20px; /* Tamanho do texto */
+    color: #09c25c; /* Cor do texto */
+    text-align: center;
+    margin-top: 30px; /* Espaçamento superior */
+    margin-top: 30px;
+}
