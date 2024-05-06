@@ -7,7 +7,7 @@ body, html {
 }
 
 .titulo {
-    font-size: 2vw; /* Tamanho do texto responsivo */
+    font-size: 20vw; /* Tamanho do texto responsivo */
     line-height: 1.6;
     height: 10vh; /* Altura responsiva */
 }
